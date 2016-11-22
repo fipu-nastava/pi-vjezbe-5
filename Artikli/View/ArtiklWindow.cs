@@ -5,13 +5,13 @@ using System.Collections.Generic;
 
 namespace Artikli
 {
-	public partial class MainWindow : Gtk.Window
+	public partial class ArtiklWindow : Gtk.Window
 	{
 		public List<Artikl> artikli = new List<Artikl>();
 
-		ArtiklNodeStore artikliViewModel;
+		ArtiklNodeStore artikliPresenter;
 
-		public MainWindow() : base(Gtk.WindowType.Toplevel)
+		public ArtiklWindow() : base(Gtk.WindowType.Toplevel)
 		{
 			Build();
 
@@ -20,10 +20,10 @@ namespace Artikli
 			artikli.Add(new Artikl("Čipi čips 200g", 15.23));
 			artikli.Add(new Artikl("Mlijeko 3.2%", 5.23));
 
-			artikliViewModel = new ArtiklNodeStore();
-			artikliViewModel.Dodaj(artikli);
+			artikliPresenter = new ArtiklNodeStore();
+			artikliPresenter.Dodaj(artikli);
 
-			popisArtikala.NodeStore = artikliViewModel;
+			popisArtikala.NodeStore = artikliPresenter;
 			popisArtikala.AppendColumn("Naziv", new Gtk.CellRendererText(), "text", 0);
 			popisArtikala.AppendColumn("Cijena", new Gtk.CellRendererText(), "text", 1);
 
@@ -42,7 +42,7 @@ namespace Artikli
 
 			labelRedak.LabelProp = selectedArtikl.naziv;
 
-			//artikliViewModel.Add(new Artikl("Mlijeko 2.5%", 4.49));
+			//artikliPresenter.Add(new Artikl("Mlijeko 2.5%", 4.49));
 		}
 	}
 }

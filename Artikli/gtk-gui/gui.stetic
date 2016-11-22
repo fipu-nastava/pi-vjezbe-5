@@ -7,10 +7,11 @@
     <widget-library name="glade-sharp, Version=2.12.0.0, Culture=neutral, PublicKeyToken=35e10195dab3c99f" />
     <widget-library name="../bin/Debug/Artikli.exe" internal="true" />
   </import>
-  <widget class="Gtk.Window" id="Artikli.MainWindow" design-size="400 300">
+  <widget class="Gtk.Window" id="Artikli.ArtiklWindow" design-size="400 300">
     <property name="MemberName" />
-    <property name="Title" translatable="yes">Naručivanje</property>
+    <property name="Title" translatable="yes">Artikli</property>
     <property name="WindowPosition">CenterAlways</property>
+    <property name="BorderWidth">10</property>
     <signal name="DeleteEvent" handler="OnDeleteEvent" />
     <child>
       <widget class="Gtk.VBox" id="vbox4">
@@ -37,6 +38,7 @@
           <widget class="Gtk.HBox" id="hbox1">
             <property name="MemberName" />
             <property name="Spacing">6</property>
+            <property name="BorderWidth">10</property>
             <child>
               <widget class="Gtk.Label" id="label6">
                 <property name="MemberName" />

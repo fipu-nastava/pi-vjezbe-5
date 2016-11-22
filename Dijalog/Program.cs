@@ -1,14 +1,14 @@
 ﻿using System;
 using Gtk;
 
-namespace Artikli
+namespace Dijalog
 {
 	class MainClass
 	{
 		public static void Main(string[] args)
 		{
 			Application.Init();
-			ArtiklWindow win = new ArtiklWindow();
+			MainWindow win = new MainWindow();
 			win.Show();
 			Application.Run();
 		}

@@ -3,6 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Artikli", "Artikli\Artikli.csproj", "{D46D6549-B715-4F34-A657-6626D794C72B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Narudzbe", "Narudzbe\Narudzbe.csproj", "{E7A89B7F-F2EF-4667-B6CD-FA2792D78C0E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dijalog", "Dijalog\Dijalog.csproj", "{F1CA1DBE-AD94-45B2-B40B-991F9D6B68C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoviProzor", "NoviProzor\NoviProzor.csproj", "{40BD9752-C3A6-4E1D-AF0E-79846F0A9B83}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -13,5 +19,17 @@ Global
 		{D46D6549-B715-4F34-A657-6626D794C72B}.Debug|x86.Build.0 = Debug|x86
 		{D46D6549-B715-4F34-A657-6626D794C72B}.Release|x86.ActiveCfg = Release|x86
 		{D46D6549-B715-4F34-A657-6626D794C72B}.Release|x86.Build.0 = Release|x86
+		{E7A89B7F-F2EF-4667-B6CD-FA2792D78C0E}.Debug|x86.ActiveCfg = Debug|x86
+		{E7A89B7F-F2EF-4667-B6CD-FA2792D78C0E}.Debug|x86.Build.0 = Debug|x86
+		{E7A89B7F-F2EF-4667-B6CD-FA2792D78C0E}.Release|x86.ActiveCfg = Release|x86
+		{E7A89B7F-F2EF-4667-B6CD-FA2792D78C0E}.Release|x86.Build.0 = Release|x86
+		{F1CA1DBE-AD94-45B2-B40B-991F9D6B68C2}.Debug|x86.ActiveCfg = Debug|x86
+		{F1CA1DBE-AD94-45B2-B40B-991F9D6B68C2}.Debug|x86.Build.0 = Debug|x86
+		{F1CA1DBE-AD94-45B2-B40B-991F9D6B68C2}.Release|x86.ActiveCfg = Release|x86
+		{F1CA1DBE-AD94-45B2-B40B-991F9D6B68C2}.Release|x86.Build.0 = Release|x86
+		{40BD9752-C3A6-4E1D-AF0E-79846F0A9B83}.Debug|x86.ActiveCfg = Debug|x86
+		{40BD9752-C3A6-4E1D-AF0E-79846F0A9B83}.Debug|x86.Build.0 = Debug|x86
+		{40BD9752-C3A6-4E1D-AF0E-79846F0A9B83}.Release|x86.ActiveCfg = Release|x86
+		{40BD9752-C3A6-4E1D-AF0E-79846F0A9B83}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 EndGlobal

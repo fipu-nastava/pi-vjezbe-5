@@ -7,12 +7,12 @@ namespace Artikli
 		public String naziv;
 
 		[Gtk.TreeNodeValue(Column = 1)]
-		public double cijena;
+		public String cijena;
 
 		public ArtiklNode(Narudzba.Artikl a)
 		{
 			this.naziv = a.Naziv;
-			this.cijena = a.Cijena;
+			this.cijena = a.Cijena.ToString("0.00 kn");
 		}
 	}
 }
