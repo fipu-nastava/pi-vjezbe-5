@@ -9,6 +9,7 @@ namespace Artikli
 	{
 		public List<Artikl> artikli = new List<Artikl>();
 
+		// presenter koji je povezan na ovaj view
 		ArtiklNodeStore artikliPresenter;
 
 		public ArtiklWindow() : base(Gtk.WindowType.Toplevel)

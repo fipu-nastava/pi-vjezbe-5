@@ -20,7 +20,7 @@ namespace NoviProzor
 		}
 
 		// Metoda za prikaz sve informacije što prikazati dobiva iz Presentera
-		public void Prikazi(object sender = null, EventArgs e = null)
+		public void Prikazi(object sender = null, EventArgs e = null) // korištenje defaultnih parametara
 		{
 			// s lijeve strane element sučelja, dok je s desne strane podatak iz Presentera
 			labelID.LabelProp = Presenter.ID;
