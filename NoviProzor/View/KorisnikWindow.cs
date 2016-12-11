@@ -7,16 +7,13 @@ namespace NoviProzor
 	{
 		public KorisnikPresenter Presenter = new KorisnikPresenter();
 
-		public KorisnikWindow(Korisnik k) : base(Gtk.WindowType.Toplevel)
+		public KorisnikWindow() : base(Gtk.WindowType.Toplevel)
 		{
 			// postavi elemente sučelja
-			this.Build();
+			Build();
 
 			// pretplati se na promjene u Presenteru
 			Presenter.Promjena += Prikazi;
-
-			// postavi korisnika u Presenter
-			Presenter.Korisnik = k;
 		}
 
 		// Metoda za prikaz sve informacije što prikazati dobiva iz Presentera
@@ -34,7 +31,7 @@ namespace NoviProzor
 			Presenter.Ime = entryIme.Text;
 			Presenter.Prezime = entryPrezime.Text;
 
-			// odrazi promjene i na model
+			// prenesi promjene i na model
 			Presenter.Spremi();
 
 			// zatvori i uništi prozor

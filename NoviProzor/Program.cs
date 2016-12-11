@@ -14,7 +14,8 @@ namespace NoviProzor
 			Korisnik k = new Korisnik(101, "Hrvoje", "Horvat");
 
 			// instanciraj glavni prozor i predaj korisnika kao parametar
-			MainWindow win = new MainWindow(k);
+			MainWindow win = new MainWindow();
+			win.Presenter.Korisnik = k;
 				
 			// prikaži glavni prozor
 			win.Show();
