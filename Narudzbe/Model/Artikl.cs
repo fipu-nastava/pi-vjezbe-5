@@ -1,5 +1,5 @@
 ﻿using System;
-namespace Artikli
+namespace NarucivanjeModel
 {
 	public class Artikl
 	{
@@ -37,7 +37,5 @@ namespace Artikli
 				naziv = value;
 			}
 		}
-
-		// .. metode
 	}
 }

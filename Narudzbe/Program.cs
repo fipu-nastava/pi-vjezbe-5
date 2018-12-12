@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Artikli
+namespace Narucivanje
 {
     static class Program
     {
@@ -16,7 +16,7 @@ namespace Artikli
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new ArtikliForm());
+            Application.Run(new NarudzbaForm());
         }
     }
 }

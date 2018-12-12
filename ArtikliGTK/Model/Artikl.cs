@@ -1,5 +1,5 @@
 ﻿using System;
-namespace Artikli
+namespace Narudzba
 {
 	public class Artikl
 	{
